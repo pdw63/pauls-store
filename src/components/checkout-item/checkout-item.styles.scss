@@ -6,7 +6,7 @@
     padding: 15px 0;
     font-size: 20px;
     align-items: center;
-  
+    
     .image-container {
       width: 23%;
       padding-right: 15px;
@@ -23,10 +23,18 @@
     }
   
     .quantity {
-      padding-left: 20px;
+      display: flex;
+
+      .more-or-less {
+        cursor: pointer;
+      }
+
+      .value {
+        margin: 0 10px;
+      }
     }
   
-    .remove-button {
+      .remove-button {
       padding-left: 12px;
       cursor: pointer;
     }
